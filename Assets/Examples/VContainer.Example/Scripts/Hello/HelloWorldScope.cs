@@ -11,7 +11,7 @@ namespace Examples.VContainer.Example.Hello
         protected override void Configure(IContainerBuilder builder)
         {
             builder.Register<HelloWorldService>(Lifetime.Singleton);
-            builder.Register<HelloWorldPresenter>(Lifetime.Singleton);
+            //builder.Register<HelloWorldPresenter>(Lifetime.Singleton);
             builder.RegisterComponent(helloView);
             builder.RegisterEntryPoint<HelloWorldPresenter>();
         }
