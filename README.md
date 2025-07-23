@@ -11,3 +11,8 @@ Concept:
 	- Server with lobby support
 	- All Mirror features: lobbies, commands, server authority...
 - Make build (also for Linux), run on my home server and show it for company employees (maybe)
+
+Useful links
+
+- VContainer
+  - https://vcontainer.hadashikick.jp/

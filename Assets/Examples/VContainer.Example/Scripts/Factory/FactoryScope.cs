@@ -18,6 +18,8 @@ namespace Examples.VContainer.Example.Factory
             builder.Register<BarFactory>(Lifetime.Singleton);
             builder.RegisterFactory<int, Bar>(container => 
                 container.Resolve<BarFactory>().Create, Lifetime.Singleton);
+            
+            //builder.RegisterComponentInHierarchy()
 
             builder.RegisterEntryPoint<FactoryEntryPoint>();
         }
