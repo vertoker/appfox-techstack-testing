@@ -5,31 +5,20 @@ namespace Examples.Mirror.Example
 {
     public class ClientBehaviour : NetworkBehaviour
     {
-        public override void OnStartServer()
-        {
-            Debug.Log(nameof(OnStartServer), gameObject);
-        }
-        public override void OnStopServer()
-        {
-            Debug.Log(nameof(OnStopServer), gameObject);
-        }
-    
-        public override void OnStartClient()
-        {
-            Debug.Log(nameof(OnStartClient), gameObject);
-        }
-        public override void OnStopClient()
-        {
-            Debug.Log(nameof(OnStopClient), gameObject);
-        }
-
+        [SerializeField] private GameObject playerPrefab;
+        
         public override void OnStartAuthority()
         {
-            Debug.Log(nameof(OnStartAuthority), gameObject);
+            Debug.Log(isClient);
+            CmdSpawnPlayer();
         }
-        public override void OnStopAuthority()
+
+        [Command]
+        private void CmdSpawnPlayer()
         {
-            Debug.Log(nameof(OnStopAuthority), gameObject);
+            Debug.Log(nameof(CmdSpawnPlayer));
+            var playerObj = Instantiate(playerPrefab, transform);
+            NetworkServer.Spawn(playerObj, netIdentity.connectionToClient);
         }
     }
 }
