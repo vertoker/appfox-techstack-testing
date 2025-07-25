@@ -2,6 +2,8 @@
 
 - Mirror
     - https://mirror-networking.gitbook.io/docs/
+	- Properly understand NetworkBehaviour
+	- How to properly setup lobbies
 
 ## In plan
 
