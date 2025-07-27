@@ -8,6 +8,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Examples/Mirror.Example/Content/Rooms/StartScene.unity
+    guid: 0a5b7583cfe635049aed97e53c31b863
+  - enabled: 1
+    path: Assets/Examples/Mirror.Example/Content/Rooms/GameplayScene.unity
+    guid: d47a96f3c2a8bf3489ad6d4da15fcb1e
+  - enabled: 1
+    path: Assets/Examples/Mirror.Example/Content/Rooms/RoomScene.unity
+    guid: 428fe84fee39f9d4d8a6b272a286638c
+  - enabled: 1
+    path: Assets/Plugins/Mirror/Examples/Room/Scenes/MirrorRoomOffline.unity
+    guid: 9e6f14982412b2545a0911ebaaa46a23
+  - enabled: 1
+    path: Assets/Plugins/Mirror/Examples/Room/Scenes/MirrorRoomOnline.unity
+    guid: d7a6763559b31854586c9e49916273ef
+  - enabled: 1
+    path: Assets/Plugins/Mirror/Examples/Room/Scenes/MirrorRoomGame.unity
+    guid: 48478f4d522f96945b8396f376299d3a
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 7143a69f27a8cb2408cede1194d976d2, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: b584892da995d7f4bb70bb96e4cb021f, type: 2}

@@ -7,7 +7,7 @@ namespace Examples.Mirror.Example
     {
         [SerializeField] private GameObject playerPrefab;
         
-        public override void OnStartAuthority()
+        public override void OnStartLocalPlayer()
         {
             Debug.Log(isClient);
             CmdSpawnPlayer();
@@ -19,6 +19,12 @@ namespace Examples.Mirror.Example
             Debug.Log(nameof(CmdSpawnPlayer));
             var playerObj = Instantiate(playerPrefab, transform);
             NetworkServer.Spawn(playerObj, netIdentity.connectionToClient);
+        }
+        
+        [ContextMenu(nameof(Ready))]
+        public void Ready()
+        {
+            NetworkClient.Ready();
         }
     }
 }
