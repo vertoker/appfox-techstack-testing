@@ -9,13 +9,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Game.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Examples/Mirror.Example/Content/Rooms/Mirror.Room.unity
+    path: Assets/Examples/MirrorExample/Content/Rooms/Mirror.Room.unity
     guid: 0a5b7583cfe635049aed97e53c31b863
   - enabled: 1
-    path: Assets/Examples/Mirror.Example/Content/Rooms/GameplayScene.unity
+    path: Assets/Examples/MirrorExample/Content/Rooms/GameplayScene.unity
     guid: d47a96f3c2a8bf3489ad6d4da15fcb1e
   - enabled: 1
-    path: Assets/Examples/Mirror.Example/Content/Rooms/RoomScene.unity
+    path: Assets/Examples/MirrorExample/Content/Rooms/RoomScene.unity
     guid: 428fe84fee39f9d4d8a6b272a286638c
   - enabled: 1
     path: Assets/Plugins/Mirror/Examples/Room/Scenes/MirrorRoomOffline.unity
