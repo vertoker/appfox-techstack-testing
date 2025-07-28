@@ -1,15 +1,13 @@
 ## Now
 
-- Mirror
-    - https://mirror-networking.gitbook.io/docs/
-	- Properly understand NetworkBehaviour
-	- How to properly setup lobbies
+- UniTask
+	- https://github.com/Cysharp/UniTask
 
 ## In plan
 
 - Create sub-projects for...
-	- [ ] VContainer
-	- [ ] Mirror (read documentation)
+	- [x] VContainer
+	- [x] Mirror (read documentation)
 	- [ ] UniTask + async/await
 	- [ ] UniRX/R3
 	- [ ] PrimeTween
