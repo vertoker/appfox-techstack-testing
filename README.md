@@ -22,3 +22,9 @@ Useful links
 	- https://github.com/Cysharp/UniTask
 	- https://ru.stackoverflow.com/questions/445768/Многопоточное-vs-асинхронное-программирование
 	- https://metanit.com/sharp/tutorial/13.3.php
+- UniRX
+	- https://github.com/neuecc/UniRx
+	- https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
+- R3
+	- https://github.com/Cysharp/R3
+	- https://www.youtube.com/watch?v=azyCBoOjP7g
