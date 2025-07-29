@@ -18,3 +18,7 @@ Useful links
 	- https://vcontainer.hadashikick.jp/
 - Mirror
 	- https://mirror-networking.gitbook.io/docs/
+- UniTask
+	- https://github.com/Cysharp/UniTask
+	- https://ru.stackoverflow.com/questions/445768/Многопоточное-vs-асинхронное-программирование
+	- https://metanit.com/sharp/tutorial/13.3.php
