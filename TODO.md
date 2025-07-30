@@ -1,7 +1,10 @@
 ## Now
 
-- PrimeTween
-	- https://github.com/KyryloKuzyk/PrimeTween
+- Addressables
+	- https://docs.unity3d.com/Packages/com.unity.addressables@2.4/manual/index.html
+	- https://docs.unity3d.com/Packages/com.unity.addressables.android@1.0/manual/index.html
+	- Localization
+	- https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/index.html
 
 ## In plan
 
@@ -10,7 +13,7 @@
 	- [x] Mirror (read documentation)
 	- [x] UniTask + async/await
 	- [x] UniRX/R3
-	- [ ] DoTween/PrimeTween
+	- [x] DoTween/PrimeTween
 	- [ ] Addressables (for Android)
 	- [ ] Behavior
 	- [ ] Dedicated Server

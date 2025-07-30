@@ -28,3 +28,5 @@ Useful links
 - R3
 	- https://github.com/Cysharp/R3
 	- https://www.youtube.com/watch?v=azyCBoOjP7g
+- PrimeTween
+	- https://github.com/KyryloKuzyk/PrimeTween
